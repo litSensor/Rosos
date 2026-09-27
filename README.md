@@ -7,7 +7,7 @@ Everything is already set up to get you started: GRUB bootloader is configured, 
 ## What's inside
 - **Bootloader**: GRUB configuration to load the kernel.
 - **Structure**: Clean directory layout (kernel, drivers, libs, etc.).
-- **Terminal**: A working command line with several demo commands. See [Commands / Команды](#commands--команды).
+- **Terminal**: A working command line with several demo commands. See [Commands](#commands).
 
 ## Who is this for
 For beginners in systems programming. If you've always wanted to dig into the internals of an OS but didn't know where to begin — take this code, study it, rewrite it, and create your very own operating system.
@@ -16,18 +16,18 @@ For beginners in systems programming. If you've always wanted to dig into the in
 > 1. This is not a production-ready OS. It's a learning material and a launchpad for your own ideas.
 > 2. This project is intended for Ubuntu only.
 
-## Commands / Команды
+## Commands
 
-| Command | Description | Описание |
-| --- | --- | --- |
-| `banner` | Displays the Rosos ASCII-art banner. | Показывает ASCII-баннер Rosos. |
-| `clear` | Clears the terminal screen. | Очищает экран терминала. |
-| `colors` | Displays the supported terminal colors. | Показывает поддерживаемые цвета терминала. |
-| `description` | Prints a short description of Rosos. | Выводит краткое описание Rosos. |
-| `echo` | Prints the given text back to the terminal. | Выводит переданный текст обратно в терминал. |
-| `help` | Lists all available commands. | Показывает список всех доступных команд. |
-| `history` | Shows the history of entered commands. | Показывает историю введённых команд. |
-| `version` | Shows the current Rosos version. | Показывает текущую версию Rosos. |
+| Command | Description |
+| --- | --- |
+| `banner` | Displays the Rosos ASCII-art banner. |
+| `clear` | Clears the terminal screen. |
+| `colors` | Displays the supported terminal colors. |
+| `description` | Prints a short description of Rosos. |
+| `echo` | Prints the given text back to the terminal. |
+| `help` | Lists all available commands. |
+| `history` | Shows the history of entered commands. |
+| `version` | Shows the current Rosos version. |
 
 ## Build and run
 ./Rosos/run.sh
